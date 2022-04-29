@@ -1,1 +1,0 @@
-Bitwise Industries: No one belongs here more than you!
