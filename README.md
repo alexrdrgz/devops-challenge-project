@@ -6,12 +6,13 @@ You will begin by creating a fork of this repository to your own Github account.
 
 ## Project Information
 
-This is a 4 part resource creation using Terraform.
+This is a 4 part resource creation using Terraform. On project requirement 1, that should be done through the console. Project Requirement 2-5 should be done via Terraform.
+Inside the Terraform directory of this Repo you will see the empty resources that need to be filled out. 
 
 ## Project Requirement 1
 
-- **PEMKEY**
-    - You should have received information on how to login to the devopschallenge account. Here you will need to create and download your pemkey.
+- **PEMKEY** -Outside of Terraform
+    - You should have received information on how to login to the DevOpsChallenge account. Here you will need to create and download your pemkey.
     This pemkey will be useful as the pemkey will be needed in Project Requirement 3. 
 
 ## Project Requirement 2
@@ -21,7 +22,7 @@ This is a 4 part resource creation using Terraform.
     
 ## Project Requirement 3
 
-- **EC2**
+- **EC2** 
     - Size: t3.micro
     - Security Group: Use the SG created in Project requirement 1
     - Storage: 10gb Standard SSD
