@@ -6,7 +6,7 @@ You will begin by creating a fork of this repository to your own Github account.
 
 ## Project Information
 
-This is a 3 part resource creation using Terraform. Please use this [link][Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/) to download the AWS Cli for your OS.
+This is a 4 part resource creation using Terraform.
 
 ## Project Requirement 1
 
@@ -42,4 +42,5 @@ This is a 3 part resource creation using Terraform. Please use this [link][Docke
 
 ## Running the project
 
-- Your project will be do
+We will run the project for you to see if the configuration is correct. Once we spin up the resources our final step will be to have you query the s3 bucket in project requirement 4 from inside the EC2 instance. Think of it like a walk-through where you will give us answers to questions such as "how do we get into the instance", "what are the
+requirements to query things from the instance", etc. 
