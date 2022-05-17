@@ -10,18 +10,18 @@ This is a 4 part resource creation using Terraform.
 
 ## Project Requirement 1
 
-- PEMKEY
+- **PEMKEY**
     - You should have received information on how to login to the devopschallenge account. Here you will need to create and download your pemkey.
     This pemkey will be useful as the pemkey will be needed in Project Requirement 3. 
 
 ## Project Requirement 2
 
-- Security Group
+- **Security Group**
     - Create a security group that whitelist your IP address, and it uses ssh port 22. 
     
 ## Project Requirement 3
 
-- EC2
+- **EC2**
     - Size: t3.micro
     - Security Group: Use the SG created in Project requirement 1
     - Storage: 10gb Standard SSD
@@ -31,12 +31,12 @@ This is a 4 part resource creation using Terraform.
 
 ## Project Requirement 4
 
-- S3 Bucket creation
+- **S3 Bucket creation**
     - Create the S3 bucket using "yourinitials-s3bucket-challenge"
   
 ## Project Requirement 5
 
-- Route 53 
+- **Route 53**
     - Setup subdomain record to be "yourinitials.bwtcdevopschallenge.com"
     - Make an A record to point the subdomain to the EC2.
 
