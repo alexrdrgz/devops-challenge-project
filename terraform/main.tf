@@ -1,11 +1,11 @@
-#Every block should be empty
+#Here you will configure your terraform and backend 
 terraform {
   backend "s3" {
    
   }
 }
 
-#Let them play with profile, make configurable values, a variable. like profile. it should be var.aws_profile. 
+# Here you will configure your provider (AWS)
 provider "aws" {
   
 
@@ -13,7 +13,6 @@ provider "aws" {
 
 
 #Here you will configure your security group to allow SSH on port 22 from ONLY your IP address.
-
 resource "aws_security_group" "allow_ssh" {
  
 
