@@ -23,6 +23,7 @@ Inside the Terraform directory of this Repo you will see the empty resources tha
 ## Project Requirement 3
 
 - **EC2** 
+Create an EC2 instance using the following requirements.
     - Size: t3.micro
     - Security Group: Use the SG created in Project requirement 1
     - Storage: 10gb Standard SSD
