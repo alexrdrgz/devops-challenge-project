@@ -38,20 +38,19 @@ resource "aws_instance" "web" {
   instance_type = t3.micro
   security_groups = [ "allow_ssh" ]
   key_name = "alex-devops-challenge"
-  volume_size = 10
-  volume_type = standard
   iam_instance_profile = "arn:aws:iam::961064903225:role/S3ReadWrite"
   
 
   vpc_security_group_ids = [
       "sg-0e85eb9b181e03ab0",
   ]
-}
 
-root_block_device {
-  #Fill out the volume size and storage in here.
+  root_block_device {
+    volume_size = 10
+    volume_type = standard
+    
+  }
 }
-
 
 #Create S3 
 resource "aws_s3_bucket" "bucket_creation" {
